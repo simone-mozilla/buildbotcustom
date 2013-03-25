@@ -1415,7 +1415,7 @@ def generateReleaseBranchObjects(releaseConfig, branchConfig,
                 extra_args=[branchConfigFile, 'postrelease',
                            '--product', 'xulrunner',
                            '--ssh-user', branchConfig['stage_username_xulrunner'],
-                           '--ssh-key', branchConfig['stage_username_xulrunner'],
+                           '--ssh-key', branchConfig['stage_ssh_xulrunner_key'],
                             ],
             )
 
